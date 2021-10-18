@@ -14,6 +14,8 @@ A beginner friendly repository that requires you to solve familiar problems with
 * Age Calculator: A program to calculate age based on the year of birth.
 * Count Words in a Sentence: A program that gets a sentence from a user and outputs the sentence and the total number of words. <br>
 
+All solutions are to be uploaded in the [In-house](https://github.com/Precillieo/Can-You-Solve-a-Problem/tree/main/In-house) folder.
+
 Do well to ascertain the correctness of your code, make sure it solves a problem and runs successfully. Your solutions must be written by you and not under any copyright restriction.
 
 Happy Contributing!

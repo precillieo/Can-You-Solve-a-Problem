@@ -64,5 +64,6 @@ git push origin add-NAME-BRANCH
 Go to the (forked) directory on GitHub and click Compare and Pull Request. Make sure there are no conflicts and make your first Pull Resquest!
 
 <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
+
 For more information read this article [Making An Open Source Contribution on Github](https://link.medium.com/W6Ma8PcDRab)
 To guide you through the process or complete this [Git and GitHub Crash Course](https://youtu.be/SWYqp7iY_Tc) if you are an absolute beginner

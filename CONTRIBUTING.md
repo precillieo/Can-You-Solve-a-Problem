@@ -14,10 +14,7 @@ Fork the repository by clicking the Fork button.
 
 <img align="left" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
-After the fork is done, the fourth step is to clone the remote repository (forked) to your machine. Go to Code bottom
-
-
-Write in the terminal the command:
+After the fork is done, the next step is to clone the remote repository (forked) to your machine. Go to Code bottom, copy the path and write in the terminal the command:
 
 ```
 git clone git@github.com:YOUR-USER-NAME/NAME-REPO.git 

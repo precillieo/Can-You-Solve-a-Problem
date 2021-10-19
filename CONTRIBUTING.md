@@ -39,9 +39,12 @@ Make the necessary changes to resolve the issue, save the files and send them to
 git add FILENAME
 ```
 
-obs: switch FILENAME to the name of the file you changed or use git add . to add all files you changed.
+obs: switch FILENAME to the name of the file you changed or use 
+```
+git add . 
+```
 
-Commit with the command:
+to add all files you changed. Commit with the command:
 
 ```
 git commit -m "MESSAGE"
@@ -55,7 +58,11 @@ Make a push with command
 git push origin add-NAME-BRANCH
 ```
 
+<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
+
+
 Go to the (forked) directory on GitHub and click Compare and Pull Request. Make sure there are no conflicts and make your first Pull Resquest!
 
+<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
 For more information read this article [Making An Open Source Contribution on Github](https://link.medium.com/W6Ma8PcDRab)
 To guide you through the process or complete this [Git and GitHub Crash Course](https://youtu.be/SWYqp7iY_Tc) if you are an absolute beginner

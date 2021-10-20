@@ -7,7 +7,7 @@ def greaterThan():
 
     """
     # variable to hold the list and the specified number
-    listNum = [2,5,6,8,9]
+    listNum = [2,5,6,8,9,13,16,21,23,25,35,43,55,62,68,79]
     num = int(input("Enter a num: "))
 
     # checking if the number specified is greater than the list or not

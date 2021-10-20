@@ -2,7 +2,7 @@ import os
 import sys
 # This program gets the total size of files in a folder
 
-dir_path = input('Input a file path: ')
+dir_path = input('Input a folder path: ')
 
 # If it isn't a file path alert the user
 if os.path.isdir(dir_path):

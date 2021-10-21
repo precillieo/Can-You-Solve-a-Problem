@@ -10,7 +10,7 @@ Retrieve comic images from xkcd [website](https://xkcd.com/#)
 	```
 - Retrieve "n" number of comic images into the directory /usr/folder  
 	```bash
-	$ python xkcd-comics.py /usr/folder n  
+	$ python xkcd-comics.py /usr/folder <n>  
 	```  
 	> "n" must be an integer  
 

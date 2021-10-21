@@ -25,7 +25,7 @@ def get_args() -> argparse.ArgumentParser:
 	parser.add_argument("dir_path", help="Directory path to store comic images")
 
 	# optional cmd-line argument to get the number of comic images to retrieve
-	parser.add_argument("n", type=int, help="Number of comic images to retrieve", default=1)
+	parser.add_argument("--n", type=int, help="Number of comic images to retrieve", default=1)
 
 	# add optional parameter to print logs
 	parser.add_argument("-v", "--verbose", action="store_true")

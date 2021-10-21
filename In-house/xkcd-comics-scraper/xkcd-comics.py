@@ -1,11 +1,3 @@
-'''
-Program logic:
-- Get user input as argument on the number of comics to generate and a path to the directory to store image file containing the comic
-- Make requests to the url that'll generate these different pages and links for the image file
-- Get the image file link by making a request to the image file url
-- Store the binary content into a file with a name that is equal to that of the image file link on the web
-'''
-
 import requests
 from bs4 import BeautifulSoup
 import argparse

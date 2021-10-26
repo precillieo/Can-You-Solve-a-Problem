@@ -12,7 +12,8 @@ A beginner friendly repository that requires you to solve familiar problems with
 * Multiplication Table : A python program to create the multiplication table (from 1 to 10) of a number. 
 * LCM : A Python program to find the Least Common Multiple (LCM) of two positive integers.
 * Age Calculator: A program to calculate age based on the year of birth.
-* Count Words in a Sentence: A program that gets a sentence from a user and outputs the sentence and the total number of words. <br>
+* Count Words in a Sentence: A program that gets a sentence from a user and outputs the sentence and the total number of words.
+* Calculate the angle: A python program to print the angle between the hour and minute hands from given values. <br>
 
 All solutions are to be uploaded in the [In-house](https://github.com/Precillieo/Can-You-Solve-a-Problem/tree/main/In-house) folder.
 

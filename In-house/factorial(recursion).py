@@ -1,7 +1,7 @@
 def factorial(n):
     """
     This function returns the factorial of n.
-    factorial(6) => 120
+    factorial(5) => 120
     """
     #base case
     if n == 0:

@@ -73,7 +73,6 @@ def get_audio_url(json_content: list) -> str:
 	"""
 	audio_url = json_content[0]['phonetics'][0]['audio']
 	audio_url = f"https:{audio_url}"
-	print(audio_url)
 	return audio_url
 
 

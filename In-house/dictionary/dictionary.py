@@ -58,7 +58,7 @@ def save_audio(audio_url: str, word: str) -> None:
 	try:
 		# open file for writing binary/bytes to it
 		with open(rf"./audio/{word}.mp3", mode='wb') as f:
-			print(f'Writing/Saving audio file to "{os.getcwd()}/audio/{word}"')
+			print(f'Writing/Saving pronounciation audio file of {word} to "{os.getcwd()}/audio/{word}"')
 			f.write(audio_content)
 	except FileExistsError:
 		pass

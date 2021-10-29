@@ -1,0 +1,27 @@
+def Longest(self, s):
+    
+    """
+    The function takes a string and checks the longest substring without any repetition and returns the number
+    
+    For example in the string 'pwwkewwxyz', 'wxyz' is the longest substring with 4 letters without repetition
+    """
+        
+    sub = {}  #Creating an empty dictionary
+    cur_sub_start = 0  #The length of the current substring
+    cur_len = 0 #The new length of string to be considered
+    longest = 0 
+        
+    for i, letter in enumerate(s):
+        if letter in sub and sub[letter] >= cur_sub_start:
+            cur_sub_start = sub[letter] + 1
+            cur_len = i - sub[letter]
+            sub[letter] = i 
+        
+        else:
+            sub[letter] = i 
+            cur_len += 1 
+            if cur_len > longest:
+                longest = cur_len
+    return(longest)     
+    
+print(Longest('pwwkewwxyz'))

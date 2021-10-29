@@ -11,7 +11,8 @@ def get_args() -> argparse.ArgumentParser:
 	:returns: parser - A cmd-line argument argparse object
 	"""
 	parser = argparse.ArgumentParser(description="Save the image of a webpage from it's url")
-	# parser.add_argument("API_KEY", help="API_KEY")
+	# add positional argument - API_key
+	parser.add_argument("api_key", help="API_KEY")
 	# add positional argument - url
 	parser.add_argument("url", help="Url of the webpage")
 	# add optional argument nocookie
@@ -86,10 +87,10 @@ def main():
 	# get the args
 	args = get_args().parse_args()
 	# get api key from environment variable
-	api_key = os.environ.get('SAVE_PAGE_API_KEY')
+	# api_key = os.environ.get('SAVE_PAGE_API_KEY')
 
 	# retrieve the image content and set preferences/options
-	img_content = get_image(api_key=api_key, webpage_url=args.url, noads=args.noads, nocookie=args.nocookie, img_format=args.format)
+	img_content = get_image(api_key=args.api_key, webpage_url=args.url, noads=args.noads, nocookie=args.nocookie, img_format=args.format)
 	# save the image
 	save_image(img_content=img_content, webpage_url=args.url, img_format=args.format)
 	print(f"--------------------DONE------------------")
